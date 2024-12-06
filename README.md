@@ -1,3 +1,6 @@
+npm start => run server w/o nodemon
+npm run dev => run server w nodemon
+
 .env variables
 
 *placeholder* === individual entries
