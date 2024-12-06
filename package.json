@@ -1,0 +1,38 @@
+{
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@socket.io/cluster-adapter": "^0.2.2",
+    "@socket.io/sticky": "^1.0.4",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.0.1",
+    "compression": "^1.7.4",
+    "connect-pg-simple": "^10.0.0",
+    "connect-redis": "^7.1.1",
+    "cookie-parser": "^1.4.6",
+    "cookie-signature": "^1.2.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.0",
+    "express-fileupload": "^1.5.1",
+    "express-session": "^1.18.0",
+    "helmet": "^7.1.0",
+    "ioredis": "^5.4.1",
+    "jsdoc": "^4.0.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.15",
+    "pg": "^8.13.0",
+    "pm2": "^5.4.2",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "start": "node src/app/index.js",
+    "dev": "nodemon src/app/index.js"
+  }
+}
